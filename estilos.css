@@ -1,0 +1,31 @@
+html {
+    background-image: url(imagenes/backgroundhtml.png);
+    background-size: cover; 
+    background-color: #ffd4f8;
+}
+
+body {
+    margin: 0;
+}
+
+#container {
+    height: 650px;
+    width: 800px;
+    background-image: url(imagenes/background.png);
+    border: beige 8px groove;
+    padding: 8px;
+    margin: auto;
+    color: black;
+    font-family: 'Comic Neue', cursive;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+#bottom {
+    height: 100px;
+    width: 100px;
+    color: crimson;
+    border: beige 4px groove;
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+}
