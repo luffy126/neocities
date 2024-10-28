@@ -1,6 +1,5 @@
 html {
-    background-image: url(imagenes/backgroundhtml.png);
-    background-size: cover; 
+    background-image: url(imagenes/test.jpg);
     background-color: #ffd4f8;
 }
 
@@ -8,24 +7,39 @@ body {
     margin: 0;
 }
 
+#gengaloid {
+    padding: 20px;
+}
+
+#cabecera {
+    margin: auto;
+    color: aliceblue;
+    font-family: "Varela Round", sans-serif;
+}
+
 #container {
     height: 650px;
     width: 800px;
     background-image: url(imagenes/background.png);
-    border: beige 8px groove;
-    padding: 8px;
+    border: cadetblue 8px ridge;
+    border-color: darkmagenta;
+    padding: 10px;
     margin: auto;
-    color: black;
-    font-family: 'Comic Neue', cursive;
+    color: azure;
+    font-family: "Varela Round", sans-serif;
     margin-top: 35px;
     margin-bottom: 15px;
 }
 
 #bottom {
-    height: 100px;
-    width: 100px;
+    height: 160px;
+    width: 286px;
+    margin: auto;
     color: crimson;
+    background-color: azure;
     border: beige 4px groove;
     font-family: 'Comic Neue', cursive;
     font-size: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
